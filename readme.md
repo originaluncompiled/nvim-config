@@ -1,11 +1,13 @@
 # A Minimalistic & Functional NeoVim Config
+
 A super-simple NeoVim config geared toward fast navigation, powerful LSP support, and a clean UI.
 Includes some niceties and creature-comforts (especially handy when switching over from another text editor). This config mostly focuses on productivity and efficiency, which allows you to only think about _actually programming_!
+
 _Features:_
 
 - 4 Already-Installed Colorschemes (Rose-Pine, Melange, Nordic, Vague)
-    _^ just un-comment the one you like most!_
-- Many Key Remaps for Convenience (Each remap is explained in (remap.lua)[https://github.com/originaluncompiled/nvim-config/blob/main/lua/remap.lua])
+  _^ just un-comment the one you like most!_
+- Many Key Remaps for Convenience (Each remap is explained in [remap.lua](https://github.com/originaluncompiled/nvim-config/blob/main/lua/remap.lua))
 - The ability to say _"I use NeoVim btw ;)"_ and not regret it
 
 _Plugins:_
@@ -18,6 +20,7 @@ _Plugins:_
 - Completions, Git (via Fugitive & GitSigns), and LSP Support
 
 ## Requirements:
+
 _Install using your normal terminal-of-choice_
 
 ```bash
@@ -37,4 +40,4 @@ _Required for the LSPs:_
 
 1. Clone this repo into your _~/.config_ folder/directory
 2. Ensure it's named _'nvim'_
-3. Launch into neovim and _viola!_
+3. Launch into neovim and** _viola!_ **
