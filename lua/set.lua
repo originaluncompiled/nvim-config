@@ -23,7 +23,7 @@ vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
--- vim.opt.clipboard = { "unnamed", "unnamedplus" } -- Uncomment for NVim to always use the system clipboard
+vim.opt.clipboard = { "unnamed", "unnamedplus" } -- Make NeoVim always use the system clipboard
 vim.opt.cmdheight = 2
 -- Show errors/warnings next to line
 vim.diagnostic.config({ virtual_text = { prefix = "■" } })
